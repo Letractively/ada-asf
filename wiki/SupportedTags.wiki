@@ -1,8 +1,12 @@
 #summary One-sentence summary of this page.
 
-The following tags are supported.
+ASF supports the following library and tags.
 
 = Facelets: http*:*//java.sun.com/jsf/facelets =
+
+{{{
+xmlns:ui="http:*//java.sun.com/jsf/facelets"
+}}}
 
 === <ui:composition> ===
 
@@ -42,4 +46,43 @@ The following tags are supported.
 <ui:insert name="define-name">
   ...
 </ui:insert>
+}}}
+
+
+= JSTL: http:*//java.sun.com/jstl/core =
+
+{{{
+xmlns:c="http:*//java.sun.com/jstl/core"
+}}}
+
+=== <c:if> ===
+
+{{{
+<c:if test="condition" var="name">
+  ...
+</c:if>
+}}}
+
+=== <c:choose> ===
+
+{{{
+<c:choose>
+   ...
+</c:choose>
+}}}
+
+=== <c:when> ===
+
+{{{
+<c:when test="condition" var="name">
+  ...
+</c:when>
+}}}
+
+=== <c:otherwise> ===
+
+{{{
+<c:otherwise>
+  ...
+</c:otherwise>
 }}}
