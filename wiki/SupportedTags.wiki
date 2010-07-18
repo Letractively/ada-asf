@@ -5,7 +5,7 @@ ASF supports the following library and tags.
 = Facelets: http*:*//java.sun.com/jsf/facelets =
 
 {{{
-xmlns:ui="http:*//java.sun.com/jsf/facelets"
+xmlns:ui="http://java.sun.com/jsf/facelets"
 }}}
 
 === <ui:composition> ===
@@ -49,10 +49,10 @@ xmlns:ui="http:*//java.sun.com/jsf/facelets"
 }}}
 
 
-= JSTL: http:*//java.sun.com/jstl/core =
+= JSTL: http*:*//java.sun.com/jstl/core =
 
 {{{
-xmlns:c="http:*//java.sun.com/jstl/core"
+xmlns:c="http://java.sun.com/jstl/core"
 }}}
 
 === <c:if> ===
@@ -74,7 +74,7 @@ xmlns:c="http:*//java.sun.com/jstl/core"
 === <c:when> ===
 
 {{{
-<c:when test="condition" var="name">
+<c:when test="condition">
   ...
 </c:when>
 }}}
