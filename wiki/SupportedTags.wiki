@@ -1,0 +1,45 @@
+#summary One-sentence summary of this page.
+
+The following tags are supported.
+
+= Facelets: http://java.sun.com/jsf/facelets =
+
+=== ui:composition ===
+
+{{{
+<ui:composition template="path">
+  ...
+</ui:composition>
+}}}
+
+=== ui:decorate ===
+
+{{{
+<ui:decorate template="path">
+  ...
+</ui:decorate>
+}}}
+
+=== ui:define ===
+
+{{{
+<ui:define name="define-name">
+...
+</ui:define>
+}}}
+
+=== ui:include ===
+
+{{{
+<ui:include name="path">
+  ...
+</ui:include>
+}}}
+
+=== ui:insert ===
+
+{{{
+<ui:insert name="define-name">
+  ...
+</ui:insert>
+}}}
