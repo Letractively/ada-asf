@@ -2,9 +2,9 @@
 
 The following tags are supported.
 
-= Facelets: http://java.sun.com/jsf/facelets =
+= Facelets: http*:*//java.sun.com/jsf/facelets =
 
-=== ui:composition ===
+=== <ui:composition> ===
 
 {{{
 <ui:composition template="path">
@@ -12,7 +12,7 @@ The following tags are supported.
 </ui:composition>
 }}}
 
-=== ui:decorate ===
+=== <ui:decorate> ===
 
 {{{
 <ui:decorate template="path">
@@ -20,7 +20,7 @@ The following tags are supported.
 </ui:decorate>
 }}}
 
-=== ui:define ===
+=== <ui:define> ===
 
 {{{
 <ui:define name="define-name">
@@ -28,7 +28,7 @@ The following tags are supported.
 </ui:define>
 }}}
 
-=== ui:include ===
+=== <ui:include> ===
 
 {{{
 <ui:include name="path">
@@ -36,7 +36,7 @@ The following tags are supported.
 </ui:include>
 }}}
 
-=== ui:insert ===
+=== <ui:insert> ===
 
 {{{
 <ui:insert name="define-name">
