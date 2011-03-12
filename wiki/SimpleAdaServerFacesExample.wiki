@@ -1,0 +1,43 @@
+#summary One-sentence summary of this page.
+
+= Introduction =
+
+Add your content here.
+
+
+= Details =
+
+Add your content here.  Format your content with:
+  * Text in *bold* or _italic_
+  * Headings, paragraphs, and lists
+  * Automatic links to other wiki pages
+
+== Root view ==
+
+The ASF facelet view should contain at the root of the component tree a `UIView` element represented by the `f:view` XML element.  The main facelet file could therefore start with the following tag:
+
+{{{
+<f:view contentType="text/html"
+        xmlns:ui="http://java.sun.com/jsf/facelets"
+        xmlns:f="http://java.sun.com/jsf/core"
+        xmlns:c="http://java.sun.com/jstl/core"
+	xmlns:u="http://code.google.com/p/ada-asf/util"
+        xmlns:h="http://java.sun.com/jsf/html">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <link media="screen" type="text/css" rel="stylesheet" href="#{contextPath}/themes/main.css"/>
+    <title>Volume Cylinder</title>
+</head>
+<body>
+   ...
+</body>
+</html>
+</f:view>
+}}}
+
+The `contentType` attribute allows to control the HTTP Content-Type header that will be returned in the response.  The `xmlns` attributes indicates the namespaces that are used by other ASF components in the view.
+
+When ASF restores the view associated with the facelet file, it will create a `UIView` component that will hold the complete view.  The `f:view` node can hold HTML element as well as specific ASF or application components.
+
+
+
