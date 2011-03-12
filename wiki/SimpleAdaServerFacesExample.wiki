@@ -1,16 +1,6 @@
-#summary One-sentence summary of this page.
-
-= Introduction =
-
-Add your content here.
+#summary Simple Ada Server Faces Example
 
 
-= Details =
-
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
 
 == Root view ==
 
@@ -39,5 +29,22 @@ The `contentType` attribute allows to control the HTTP Content-Type header that 
 
 When ASF restores the view associated with the facelet file, it will create a `UIView` component that will hold the complete view.  The `f:view` node can hold HTML element as well as specific ASF or application components.
 
+== Form Definition ==
 
-
+{{{
+<h:form id='compute'>
+         <table>
+             <tr><td>Height</td><td>
+		<h:input id='height' size='10' value='#{compute.height}'>
+                   <f:converter converterId="float"/>
+                </h:input>
+             </td></tr>
+             <tr><td>Radius</td><td>
+                <h:input id='radius' size='10' value='#{compute.radius}'>
+                   <f:converter converterId="float"/>
+                </h:input>
+             </td></tr>
+             <tr><td></td><td><h:commandButton id='run' value='Compute' action="#{compute.run}"/></td></tr>
+         </table>
+     </h:form>
+}}}
