@@ -86,3 +86,7 @@ xmlns:c="http://java.sun.com/jstl/core"
   ...
 </c:otherwise>
 }}}
+
+== References ==
+
+[http://myfaces.apache.org/core20/myfaces-impl/tlddoc-facelets/index.html JSF Tags]
