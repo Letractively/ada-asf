@@ -8,6 +8,7 @@ ASF supports the following library and tags.
 || FaceletTags || xmlns:c="http://java.sun.com/jstl/core" || u:include ||
 || [JSTLTags] || xmlns:c="http://java.sun.com/jstl/core" || c:if, c:when ||
 || [HtmlTags] || xmlns:h="http://java.sun.com/jsf/html" || h:form ||
+|| [CoreFaceletTags] || xmlns:h="http://java.sun.com/jsf/html" || f:param ||
 
 == References ==
 
