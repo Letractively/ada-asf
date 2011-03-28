@@ -1,4 +1,10 @@
-#summary One-sentence summary of this page.
+#summary JSF Core
+
+== Namespace ==
+
+{{{
+xmlns:f="http://java.sun.com/jsf/core"
+}}}
 
 === f:view ===
 
