@@ -2,17 +2,11 @@
 
 ASF supports the following library and tags.
 
-= Facelet Tags =
+= Supported Tags =
 
 || FaceletTags || xmlns:c="http://java.sun.com/jstl/core" || u:include ||
-|| JSTLTags || xmlns:c="http://java.sun.com/jstl/core" || c:if, c:when ||
-
-= JSTL Tags =
-[JSTLTags]
-
-= HtmlTags =
-
-[HtmlTags]
+|| [JSTLTags] || xmlns:c="http://java.sun.com/jstl/core" || c:if, c:when ||
+|| [HtmlTags] || xmlns:h="http://java.sun.com/jsf/html" || h:form ||
 
 == References ==
 
