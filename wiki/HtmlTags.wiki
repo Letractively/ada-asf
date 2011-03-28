@@ -1,0 +1,25 @@
+#summary Html Tags
+
+= JSTL: http*:*//java.sun.com/jstl/core =
+
+{{{
+xmlns:c="http://java.sun.com/jstl/core"
+}}}
+
+=== <h:outputText> ===
+
+{{{
+<h:outputText value='..' title='..' escape='..' converter='..' rendered='..'
+   dir='..' lang='..' style='..' styleClass='..' id='..'>
+</h:outputText>
+}}}
+
+=== <h:outputFormat> ===
+
+{{{
+<h:outputFormat value='..' title='..' escape='..' converter='..' rendered='..'
+   dir='..' lang='..' style='..' styleClass='..' id='..'>
+   <f:param value='..'/>
+   ..
+</h:outputFormat>
+}}}
