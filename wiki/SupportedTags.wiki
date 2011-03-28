@@ -5,9 +5,9 @@ ASF supports the following library and tags.
 = Supported Tags =
 
 || Tags || Namespace || ||
-|| FaceletTags || xmlns:c="http://java.sun.com/jstl/core" || u:include ||
-|| [JSTLTags] || xmlns:c="http://java.sun.com/jstl/core" || c:if, c:when ||
-|| [HtmlTags] || xmlns:h="http://java.sun.com/jsf/html" || h:form ||
+|| FaceletTags || xmlns:c="`http://java.sun.com/jstl/core`" || u:include ||
+|| [JSTLTags] || xmlns:c="`http://java.sun.com/jstl/core`" || c:if, c:when ||
+|| [HtmlTags] || xmlns:h="`http://java.sun.com/jsf/html`" || h:form ||
 || [CoreFaceletTags] || xmlns:f="`http://java.sun.com/jsf/core`" || f:param ||
 
 == References ==
