@@ -2,6 +2,17 @@
 
 ASF supports the following library and tags.
 
+= Facelet Tags =
+
+[FaceletTags]
+
+= JSTL Tags =
+[JSTLTags]
+
+= HtmlTags =
+
+[HtmlTags]
+
 = Facelets: http*:*//java.sun.com/jsf/facelets =
 
 {{{
