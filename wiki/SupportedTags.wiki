@@ -4,7 +4,7 @@ ASF supports the following library and tags.
 
 = Facelet Tags =
 
-FaceletTags
+|| FaceletTags || u:include
 
 = JSTL Tags =
 [JSTLTags]
