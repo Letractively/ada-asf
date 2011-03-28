@@ -13,52 +13,6 @@ FaceletTags
 
 [HtmlTags]
 
-= Facelets: http*:*//java.sun.com/jsf/facelets =
-
-{{{
-xmlns:ui="http://java.sun.com/jsf/facelets"
-}}}
-
-=== <ui:composition> ===
-
-{{{
-<ui:composition template="path">
-  ...
-</ui:composition>
-}}}
-
-=== <ui:decorate> ===
-
-{{{
-<ui:decorate template="path">
-  ...
-</ui:decorate>
-}}}
-
-=== <ui:define> ===
-
-{{{
-<ui:define name="define-name">
-...
-</ui:define>
-}}}
-
-=== <ui:include> ===
-
-{{{
-<ui:include name="path">
-  ...
-</ui:include>
-}}}
-
-=== <ui:insert> ===
-
-{{{
-<ui:insert name="define-name">
-  ...
-</ui:insert>
-}}}
-
 
 = JSTL: http*:*//java.sun.com/jstl/core =
 
