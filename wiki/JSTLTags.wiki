@@ -1,0 +1,46 @@
+#summary JSTL Tags
+
+= JSTL: http*:*//java.sun.com/jstl/core =
+
+{{{
+xmlns:c="http://java.sun.com/jstl/core"
+}}}
+
+=== <c:if> ===
+
+{{{
+<c:if test="condition" var="name">
+  ...
+</c:if>
+}}}
+
+=== <c:choose> ===
+
+{{{
+<c:choose>
+   ...
+</c:choose>
+}}}
+
+=== <c:when> ===
+
+{{{
+<c:when test="condition">
+  ...
+</c:when>
+}}}
+
+=== <c:otherwise> ===
+
+{{{
+<c:otherwise>
+  ...
+</c:otherwise>
+}}}
+
+
+=== <c:set> ===
+
+{{{
+<c:set var='name' value='...'/>
+}}}
