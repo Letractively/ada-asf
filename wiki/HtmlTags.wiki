@@ -16,6 +16,8 @@ xmlns:c="http://java.sun.com/jstl/core"
 
 === <h:outputFormat> ===
 
+[http://myfaces.apache.org/core20/myfaces-impl/tlddoc-facelets/h/outputFormat.html JSF h:outputFormat]
+
 {{{
 <h:outputFormat value='..' title='..' escape='..' converter='..' rendered='..'
    dir='..' lang='..' style='..' styleClass='..' id='..'>
