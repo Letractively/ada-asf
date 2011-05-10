@@ -1,0 +1,25 @@
+with "config";
+with "@UTIL_DIR@util";
+with "@UTIL_DIR@testutil";
+with "@EL_DIR@el";
+with "@AWS_DIR@aws";
+with "asf";
+
+project AsfUnit is
+
+   Library_Dir := "lib";
+
+   for Source_Dirs use ("asfunit");
+
+   for Library_Dir use Library_Dir & "/asfunit";
+   for Library_Name use "asfunit";
+   for Library_Kind use "static";
+
+   for Object_Dir use "./" & Config'Object_Dir & "/obj/asfunit";
+   for Exec_Dir use "./" & Config'Exec_Dir & "/bin";
+
+   package Binder renames Config.Binder;
+   package Builder renames Config.Builder;
+   package Compiler renames Config.Compiler;
+
+end AsfUnit;
