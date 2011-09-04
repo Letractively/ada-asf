@@ -16,7 +16,7 @@ You will need:
   * Ada Util,
   * Ada EL
 
-To build on Windows, you will need the Mingw32 Msys package.
+To build on Windows, you will need the [http://www.mingw.org/ Mingw32 Msys] package.
 
 = Configuration =
 
