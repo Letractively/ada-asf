@@ -8,6 +8,7 @@ platforms:
   * GNAT 2011 on Windows7 (gcc 4.5.3)
   * GNAT 2011 on Ubuntu (gcc 4.5.3)
   * gcc 4.4.3 on Ubuntu
+  * gcc 4.6.2 on Ubuntu
 
 You will need:
 
