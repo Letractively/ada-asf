@@ -3,13 +3,13 @@
   * Javascript support for popup and editable fields
   * Added support to enable/disable mouseover effect in lists
   * New EL function util:iso8601
-  * New component <w:autocomplete> for input text with autocompletion
-  * New component <w:gravatar> to render a gravatar image
-  * New component <w:like> to render a Facebook, Twitter or Google+ like button
-  * New component <w:panel> to provide collapsible div panels
-  * New components <w:tabView> and <w:tab> for tabs display
-  * New component <w:accordion> to display accordion tabs
-  * Add support for JSF <f:facet>, <f:convertDateTime>, <h:doctype>
+  * New component `<w:autocomplete>` for input text with autocompletion
+  * New component `<w:gravatar>` to render a gravatar image
+  * New component `<w:like>` to render a Facebook, Twitter or Google+ like button
+  * New component `<w:panel>` to provide collapsible div panels
+  * New components `<w:tabView>` and `<w:tab>` for tabs display
+  * New component `<w:accordion>` to display accordion tabs
+  * Add support for JSF `<f:facet>`, `<f:convertDateTime>`, `<h:doctype>`
   * Support for the creation of Debian packages
 
 == Version 0.5     - Feb 2013 ==
